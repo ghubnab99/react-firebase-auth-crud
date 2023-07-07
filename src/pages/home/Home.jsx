@@ -2,7 +2,7 @@ import React from 'react'
 import "./home.scss"
 import Sidebar from '../../components/sidebar/Sidebar'
 import Navbar from '../../components/navbar/Navbar'
-import Widget from '../../components/widget/widget'
+import Widget from '../../components/widget/Widget'
 import FeaturedChart from '../../components/featuredChart/FeaturedChart'
 import Chart from '../../components/chart/Chart'
 import List from '../../components/table/Table'
