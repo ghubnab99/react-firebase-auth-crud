@@ -9,8 +9,8 @@ import { useContext } from 'react';
 
 const Login = () => {
   const [error, setError] = useState(false);
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
+  const [email, setEmail] = useState("john_smith@ecomadmin.com");
+  const [password, setPassword] = useState("123456");
   const [isProcessing, setIsProcessing] = useState(false);
 
   const navigate = useNavigate();
